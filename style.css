@@ -82,6 +82,8 @@ body {
   color: #ededed;
   text-decoration: none;
   font-weight: 600;
+  max-width: 320px;
+  line-height: 20px;
 }
 
 /* .logo::before {
@@ -97,6 +99,9 @@ body {
 .header img {
   width: 170px;
   padding: 14px 7px 14px 14px;
+}
+.navbar {
+  display: flex;
 }
 
 .navbar a {
@@ -119,7 +124,7 @@ body {
   align-items: center;
   padding: 0 10%;
   background: linear-gradient(to right, #0576e61f, #0017692a),
-    url(./new_parralax3.jpg);
+    url(./assets/background/Kokand_Khudayar_Khan_palace_restored-1024x682.jpg);
   background-position: center;
   background-size: cover;
   object-fit: cover;
@@ -450,7 +455,7 @@ body {
   z-index: 10;
   cursor: pointer;
   transition: 0.2s ease;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .int-right-box {
@@ -460,7 +465,6 @@ body {
   margin: 20px 0px;
   border-radius: 10px;
   z-index: 10;
-  justify-content: space-between;
   cursor: pointer;
   transition: 0.2s ease;
   text-align: center;
@@ -506,7 +510,8 @@ body {
   margin: 20px;
 }
 
-.iconBX:hover {
+.int-right-box:hover .iconBX,
+.int-left-box:hover .iconBX {
   border: 3px dotted #fff;
 }
 
@@ -814,7 +819,23 @@ swiper-slide img {
   .swiper-wrapper {
     width: fit-content;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .navbar a {
+    font-size: 13px;
+  }
+  .int-section-item {
+    justify-content: center;
+  }
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+  .int-left-box,
+  .int-right-box {
+    width: 90%;
   }
 }
