@@ -28,11 +28,8 @@
       referrerpolicy="no-referrer"
     />
     <link
+      href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.2-web/css/all.min.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
   </head>
 
@@ -57,7 +54,7 @@
       </nav>
     </header>
     <div class="second-header">
-      <div class="header-menu">
+      <div id="menu" class="header-menu">
         <div class="menu-title">
           <p>Menu</p>
           <button><i class="fa-solid fa-xmark"></i></button>
@@ -95,7 +92,9 @@
         </a>
       </div>
       <div class="menu">
-        <button><i class="fa-solid fa-bars"></i></button>
+        <button onclick="{() => Opener()}" class="open_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
         <div>
           <img src="assets/logo/icon.png" alt="image" />
           <p>
@@ -114,7 +113,44 @@
         <img src="./assets/photos/line-break-10.svg" alt="underline_photo" />
       </div>
       <div class="container">
-        <div class="swiper mySwiper">
+        <div class="news-container">
+          <div class="news-container-item">
+            <div class="imgBx">
+              <img src="./assets/photos/img1.jpg" alt="image" />
+            </div>
+            <p>
+              Xiva – 2024-yilda Islom hamkorlik tashkilotining turizm shahri
+            </p>
+          </div>
+          <div class="news-container-item is-up">
+            <div class="imgBx">
+              <img src="./assets/photos/img1.jpg" alt="image" />
+            </div>
+            <p>O‘zbekiston turizm salohiyati Quvaytda taqdim etildi</p>
+          </div>
+          <div class="news-container-item">
+            <div class="imgBx">
+              <img src="./assets/photos/img1.jpg" alt="image" />
+            </div>
+            <p>Jahon kubogi oldidan matbuot anjumani o‘tkazildi</p>
+          </div>
+          <div class="news-container-item">
+            <div class="imgBx">
+              <img src="./assets/photos/img1.jpg" alt="image" />
+            </div>
+            <p>Namanganda 63-xalqaro gullar festivali bo‘lib o‘tadi</p>
+          </div>
+          <div class="news-container-item is-up">
+            <div class="imgBx">
+              <img src="./assets/photos/img1.jpg" alt="image" />
+            </div>
+            <p>
+              OAV vakillari uchun Zomin tumani sayyohlik obyektlari bo‘ylab
+              press-tur o‘tkazildi
+            </p>
+          </div>
+        </div>
+        <!-- <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="swip-img">
@@ -230,7 +266,7 @@
             </div>
           </div>
           <div class="swiper-pagination"></div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -405,7 +441,50 @@
         </div>
       </div>
     </div>
-
+    <!-- Why choose us -->
+    <div class="why-we">
+      <div class="container">
+        <div class="why-we-item">
+          <div class="why-we-title">
+            <h4>Why choose us</h4>
+          </div>
+          <div class="why-we-items">
+            <div class="why-we-items-item">
+              <i class="fa-regular fa-compass"></i>
+              <h3>Unforgettable experiences</h3>
+              <p>
+                Curate your ideal journey through the creation of customized
+                itineraries.
+              </p>
+            </div>
+            <div class="why-we-items-item">
+              <i class="fa-regular fa-shield-check"></i>
+              <h3>Safe & secure</h3>
+              <p>
+                A safe and secure experience, coupled with the most competitive
+                rates on the market.
+              </p>
+            </div>
+            <div class="why-we-items-item">
+              <i class="fa-light fa-location-dot"></i>
+              <h3>Local expertise</h3>
+              <p>
+                We offer exclusive access to hidden gems, authentic activities,
+                and unique venues.
+              </p>
+            </div>
+            <div class="why-we-items-item">
+              <i class="fa-light fa-leaf"></i>
+              <h3>Positive impact</h3>
+              <p>
+                By traveling with us you are helping support local community,
+                wildlife, and local culture.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- MAP Section -->
     <div class="map-section">
       <div class="map-section-title">

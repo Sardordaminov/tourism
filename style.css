@@ -107,14 +107,15 @@ body {
 }
 .navbar {
   display: flex;
+  align-items: center;
 }
 
 .navbar a {
-  font-size: 18px;
+  font-size: 17px;
   color: #ededed;
   text-decoration: none;
   font-weight: 500;
-  margin-left: 12px;
+  margin-left: 14px;
   transition: 0.3s;
 }
 
@@ -226,7 +227,7 @@ body {
 }
 
 .new {
-  margin: 10px 0;
+  margin: 30px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -247,7 +248,48 @@ body {
   font-size: 21px;
   letter-spacing: 5px;
 }
-.news .swiper {
+.news-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 60px 0px 0px;
+}
+.news-container-item {
+  max-width: 360px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 30px 0 rgba(79, 151, 226, 0.2);
+  border-radius: 7px;
+  overflow: hidden;
+  margin: 0px 30px 20px 0px;
+}
+.news-container-item.is-up {
+  position: relative;
+  top: -50px;
+}
+.news-container-item .imgBx {
+  height: 250px;
+  overflow: hidden;
+}
+.news-container-item .imgBx img {
+  width: 100%;
+  height: 100%;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.news-container-item .imgBx:hover img {
+  transform: scale(1.1);
+}
+.news-container-item p {
+  padding: 20px 0px;
+  font-size: 14px;
+  text-align: center;
+}
+/* .news .swiper {
   margin-top: 30px;
 }
 .swiper {
@@ -286,7 +328,7 @@ body {
   top: 0;
   left: 0;
   z-index: 10;
-  /* background-color: #0093e9; */
+  background-color: #0093e9;
   background-image: linear-gradient(180deg, #0094e9dc 0%, #80d0c7b7 100%);
   width: 100%;
   height: 100%;
@@ -336,7 +378,7 @@ body {
   display: inline-flex;
   width: 300px;
   height: 100%;
-  /* background: #00abf0; */
+  background: #00abf0;
   border: 2px solid #00abf0;
   border-radius: 50px;
   font-size: 19px;
@@ -383,7 +425,7 @@ body {
 
 .btn-box a:hover::before {
   width: 100%;
-}
+} */
 
 #int-section {
   position: relative;
@@ -617,7 +659,7 @@ body {
 }
 .media-left,
 .media-right {
-  padding: 0px 15px;
+  padding: 10px 15px;
 }
 .statistics {
   padding: 70px 0px;
@@ -655,7 +697,7 @@ body {
 }
 .statistics-item-box {
   width: 200px;
-  margin: 0px 20px;
+  margin: 10px 20px;
   color: #fff;
 }
 .statistics-item-box h5 {
@@ -666,6 +708,47 @@ body {
 }
 .statistics-item-box span {
   font-size: 40px;
+}
+.why-we {
+  width: 100%;
+  padding: 50px 0px;
+  background: linear-gradient(135deg, #000428, #0074da 80%);
+}
+.why-we-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.why-we-title h4 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.why-we-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.why-we-items-item {
+  width: 230px;
+  margin: 10px 20px;
+}
+.why-we-items-item i {
+  font-size: 30px;
+}
+.why-we-items-item h3 {
+  font-size: 15px;
+  margin: 30px 0px;
+}
+.why-we-items-item p {
+  font-size: 13px;
+  line-height: 30px;
 }
 
 .map-section {
@@ -880,7 +963,7 @@ swiper-slide img {
   }
   .header-menu {
     position: absolute;
-    left: -100%;
+    left: -150%;
     z-index: 11;
     background-color: #ffffffb6;
     backdrop-filter: blur(5px);
@@ -915,6 +998,7 @@ swiper-slide img {
     border: none;
     outline: none;
     font-size: 40px;
+    cursor: pointer;
   }
   .menu div {
     max-width: 380px;
@@ -924,5 +1008,37 @@ swiper-slide img {
   .menu div img {
     width: 60px;
     height: 60px;
+  }
+  .news {
+    padding-top: 100px;
+  }
+  .news-container-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .news-container-item.is-up {
+    top: 0px;
+  }
+  .media-mix{
+    justify-content: center;
+  }
+  .media-left-slide {
+    width: 320px;
+    min-height: 200px;
+  }
+  
+  .media-left-slide-item {
+    min-height: 200px;
+  }
+  
+  .media-left-slide-item img {
+    width: 320px !important;
+    height: 200px !important;
+  }
+  .media-video {
+    width: 320px;
+    height: 200px;
   }
 }
