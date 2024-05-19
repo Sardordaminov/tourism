@@ -4,6 +4,7 @@ let totop = document.querySelector(".to-top");
 let header = document.querySelector(".header");
 let open_btn = document.querySelector('.open_btn');
 let menu = document.getElementById('#menu');
+let loadingContainer = document.querySelector('.loading');
 
 valueDisplays.forEach((valueDisplay) => {
   let startValue = 0;
@@ -37,3 +38,11 @@ totop.addEventListener("click", function () {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 });
+
+
+
+window.addEventListener('DOMContentLoaded',() => {
+  setTimeout(() => {
+  loadingContainer.style.display = "none"
+  },1000)
+})
