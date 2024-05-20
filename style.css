@@ -819,10 +819,12 @@ body {
   margin: 5px 0px;
   cursor: pointer;
   color: #ffffffdc !important;
-  transition: 0.1s ease;
+  transition: left 0.3s ease;
 }
 .footer-item-box p:hover {
-  margin-left: 15px;
+  position: relative;
+  left: 15px;
+  /* margin-left: 15px; */
   /* transform: scale(1.04); */
   color: #ffffff !important;
 }
