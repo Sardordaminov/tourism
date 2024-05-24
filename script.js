@@ -42,7 +42,7 @@ totop.addEventListener("click", function () {
 window.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
     loadingContainer.style.display = "none"
-  }, 2000)
+  }, 4500)
 })
 
 document.addEventListener('DOMContentLoaded', () => {
