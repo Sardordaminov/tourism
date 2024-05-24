@@ -44,7 +44,7 @@
   stroke: #fff;
   fill-opacity: 0;
   stroke-width: 3px;
-  animation: draw 15s linear infinite;
+  animation: draw 10s linear infinite;
   stroke-dasharray: 1500;
 }
 @keyframes draw {
@@ -111,7 +111,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  z-index: 10000;
   background: linear-gradient(
     0deg,
     rgba(238, 152, 40, 0) 0%,
@@ -146,6 +146,7 @@ body {
 .navbar {
   display: flex;
   align-items: center;
+  z-index: 1000;
 }
 
 .navbar a {
@@ -177,6 +178,7 @@ body {
   background-color: #00000025;
   top: 0;
   left: 0;
+  z-index: 1000;
 }
 
 .home-content {
@@ -330,11 +332,14 @@ body {
   padding: 20px 0px;
   font-size: 14px;
   text-align: center;
+  color: rgba(133, 92, 2, 0.829);
+  font-weight: 700;
 }
 
 .item img {
   width: 300px;
   height: 602px;
+  z-index: 1000;
 }
 .media-section-main {
   background-color: #fff;
@@ -365,6 +370,7 @@ body {
 .media-section-title img {
   width: 120px;
   align-items: center;
+  z-index: 1000;
 }
 
 .media-mix {
@@ -419,6 +425,7 @@ body {
 .media-left,
 .media-right {
   padding: 10px 15px;
+  z-index: 10000;
 }
 .places-section {
   width: 100%;
@@ -427,10 +434,27 @@ body {
   display: flex;
   flex-direction: column;
 }
+.places-section-item h1{
+  color: rgba(123, 84, 0, 0.68);
+  text-align: center;
+}
 .place-cards {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+.place-card{
+  width: 350px;
+  color: rgba(133, 92, 2, 0.829);
+  text-align: center;
+  padding: 35px;
+
+}
+.place-card h3{
+  padding: 15px;
 }
 .button2 {
   display: inline-block;
@@ -439,13 +463,13 @@ body {
   overflow: hidden;
   z-index: 1;
   color: #090909;
-  padding: 0.7em 1.7em;
+  padding: 0.9em 1.9em;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 15px;
   border-radius: 0.5em;
   background: #e8e8e8;
   border: 1px solid #e8e8e8;
-  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  box-shadow: 6px 6px 12px rgba(194, 135, 8, 0.829), -6px -6px 12px rgba(194, 135, 8, 0.829);
 }
 
 .button2:active {
@@ -573,6 +597,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 50px 0px;
+  z-index: 1000;
 }
 .why-we-items-item {
   width: 230px;
