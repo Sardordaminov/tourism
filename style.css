@@ -231,6 +231,7 @@ body {
 }
 .welcome-section-textBx p {
   line-height: 25px;
+  font-weight: 700;
 }
 .welcome-section-textBx button {
   padding: 7px 25px;
@@ -238,10 +239,12 @@ body {
   border-radius: 3px;
   border: none;
   color: rgba(133, 91, 2, 0.68);
+  font-weight: 700;
   cursor: pointer;
   transition: 0.2s ease;
   background: #ffffff;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  font-size: 14px;
   &:hover {
     background-color: rgba(133, 91, 2, 0.68);
     color: #fff;
@@ -268,6 +271,7 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 30px 0;
+  color: #fff;
 }
 
 .new {
@@ -290,6 +294,7 @@ body {
   color: rgba(133, 91, 2, 0.68);
   align-items: center;
   font-size: 21px;
+  font-weight: 800;
   letter-spacing: 5px;
 }
 .news-container {
@@ -306,10 +311,12 @@ body {
   height: fit-content;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 30px 0 rgba(79, 151, 226, 0.2);
+  box-shadow: 0 0 25px 0 rgba(133, 91, 2, 0.68);
   border-radius: 7px;
   overflow: hidden;
   margin: 0px 30px 20px 0px;
+  background-color: rgba(168, 117, 6, 0.68);
+
 }
 .news-container-item.is-up {
   position: relative;
@@ -342,7 +349,12 @@ body {
   z-index: 1000;
 }
 .media-section-main {
-  background-color: #fff;
+  background: linear-gradient(
+    0deg,
+    rgba(123, 84, 0, 0.68) 98%,
+    rgba(238, 152, 40, 0.63) 0%,
+    rgba(121, 76, 9, 0) 0%
+  );
   padding: 70px 0px;
 }
 .media-section {
@@ -429,13 +441,19 @@ body {
 }
 .places-section {
   width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(123, 84, 0, 0.68) 98%,
+    rgba(238, 152, 40, 0) 0%,
+    rgba(121, 76, 9, 0.65) 0%
+  );
 }
 .places-section-item {
   display: flex;
   flex-direction: column;
 }
 .places-section-item h1{
-  color: rgba(123, 84, 0, 0.68);
+  color: #fff;
   text-align: center;
 }
 .place-cards {
@@ -448,7 +466,7 @@ body {
 }
 .place-card{
   width: 350px;
-  color: rgba(133, 92, 2, 0.829);
+  color: #fff;
   text-align: center;
   padding: 35px;
 
@@ -529,7 +547,12 @@ body {
   position: relative;
   top: 0;
   left: 0;
-  background: linear-gradient(135deg, #000428, #0074da 80%);
+  background: linear-gradient(
+    0deg,
+    rgba(123, 84, 0, 0.68) 98%,
+    rgba(238, 152, 40, 0) 0%,
+    rgba(121, 76, 9, 0.67) 0%
+  );
 }
 
 .statistics-title {
@@ -575,7 +598,13 @@ body {
 .why-we {
   width: 100%;
   padding: 50px 0px;
-  background: linear-gradient(135deg, #000428, #0074da 80%);
+  
+  background: linear-gradient(
+    0deg,
+    rgba(238, 152, 40, 0) 0%,
+    rgba(121, 76, 9, 0.03) 0%,
+    rgba(123, 84, 0, 0.68) 98%
+  );
 }
 .why-we-item {
   width: 100%;
@@ -624,7 +653,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 50px 0px;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .map-section-title {
   text-align: center;
