@@ -35,7 +35,8 @@
   justify-content: center;
   flex-direction: column;
   gap: 1rem;
-  box-shadow: 1px 1px 25px 1px rgba(255, 119, 0, 1), 1px 1px 23px 1px rgba(0, 141, 221, 1), 1px 1px 21px 1px rgba(255, 119, 0, 1);
+  box-shadow: 1px 1px 25px 1px rgba(255, 119, 0, 1),
+    1px 1px 23px 1px rgba(0, 141, 221, 1), 1px 1px 21px 1px rgba(255, 119, 0, 1);
   border-radius: 50%;
 }
 #logo {
@@ -317,8 +318,7 @@ body {
   overflow: hidden;
   margin: 0px 30px 20px 0px;
   background-color: rgba(168, 117, 6, 0.68);
-  color: #ffffff
-
+  color: #ffffff;
 }
 .news-container-item.is-up {
   position: relative;
@@ -455,7 +455,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.places-section-item h1{
+.places-section-item h1 {
   color: #fff;
   text-align: center;
 }
@@ -467,14 +467,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.place-card{
+.place-card {
   width: 350px;
   color: #fff;
   text-align: center;
   padding: 35px;
-
 }
-.place-card h3{
+.place-card h3 {
   padding: 15px;
 }
 .button2 {
@@ -490,7 +489,8 @@ body {
   border-radius: 0.5em;
   background: #e8e8e8;
   border: 1px solid #e8e8e8;
-  box-shadow: 6px 6px 12px rgba(194, 135, 8, 0.829), -6px -6px 12px rgba(194, 135, 8, 0.829);
+  box-shadow: 6px 6px 12px rgba(194, 135, 8, 0.829),
+    -6px -6px 12px rgba(194, 135, 8, 0.829);
 }
 
 .button2:active {
@@ -601,7 +601,7 @@ body {
 .why-we {
   width: 100%;
   padding: 50px 0px;
-  
+
   background: linear-gradient(
     0deg,
     rgba(238, 152, 40, 0) 0%,
@@ -619,7 +619,7 @@ body {
   color: #fff;
 }
 .why-we-title h4 {
-  font-size: 30px;
+  font-size: 21px;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -629,11 +629,13 @@ body {
   align-items: center;
   justify-content: center;
   margin: 50px 0px;
-  z-index: 1000;
+  z-index: 100;
 }
 .why-we-items-item {
-  width: 230px;
+  width: 240px;
+  min-height: 180px;
   margin: 10px 20px;
+  padding: 0px 5px;
 }
 .why-we-items-item i {
   font-size: 30px;
