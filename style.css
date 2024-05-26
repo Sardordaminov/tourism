@@ -112,7 +112,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 10000;
+  z-index: 100;
   background: linear-gradient(
     0deg,
     rgba(238, 152, 40, 0) 0%,
@@ -123,6 +123,7 @@ body {
 }
 .second-header {
   display: none;
+  z-index: 12;
 }
 .header-item {
   display: flex;
@@ -170,7 +171,8 @@ body {
   display: flex;
   align-items: center;
   padding: 0 10%;
-  background: linear-gradient(to right, #0576e61f, #0017692a),
+  filter: brightness(70%);
+  background: linear-gradient(to top, #ffffff54, #ffffff2a),
     url(./assets/background/Kokand_Khudayar_Khan_palace_restored-1024x682.jpg);
   background-position: center;
   background-size: cover;
@@ -179,7 +181,7 @@ body {
   background-color: #00000025;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 10;
 }
 
 .home-content {
@@ -226,14 +228,11 @@ body {
 }
 .welcome-section-textBx h1 {
   font-size: 40px;
-  color: #090909;
   margin-bottom: 20px;
   letter-spacing: 1px;
 }
 .welcome-section-textBx p {
   line-height: 25px;
-  font-weight: 700;
-  color: #090909;
 }
 .welcome-section-textBx button {
   padding: 7px 25px;
@@ -290,10 +289,9 @@ body {
   margin-top: 5px;
 }
 
-.new h1 {
-  font-weight: bold;
+.new h4 {
   text-align: center;
-  color: #090909;
+  color: #855c02d3;
   align-items: center;
   font-size: 21px;
   font-weight: 800;
@@ -394,6 +392,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
+  z-index: 1;
 }
 
 .media-left-slide {
@@ -468,6 +467,7 @@ body {
   align-items: center;
 }
 .place-card {
+  z-index: 1;
   width: 350px;
   color: #fff;
   text-align: center;
@@ -791,7 +791,7 @@ swiper-slide img {
   .second-header {
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -866,6 +866,9 @@ swiper-slide img {
   .menu div img {
     width: 60px;
     height: 60px;
+  }
+  .welcome-section-item {
+    margin-top: 50px;
   }
 
   .news {
