@@ -825,7 +825,7 @@ swiper-slide img {
     min-height: 100vh;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
       rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    transition: right 0.3s ease;
+    transition: left 0.3s ease;
   }
   .header-menu.active {
     left: -0%;
@@ -902,5 +902,10 @@ swiper-slide img {
   }
   .footer-bottom-item {
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 500px){
+  .header-menu{
+    width: 100%;
   }
 }
