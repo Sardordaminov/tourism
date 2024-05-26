@@ -225,20 +225,21 @@ body {
 }
 .welcome-section-textBx h1 {
   font-size: 40px;
-  color: rgba(133, 91, 2, 0.68);
+  color: #090909;
   margin-bottom: 20px;
   letter-spacing: 1px;
 }
 .welcome-section-textBx p {
   line-height: 25px;
   font-weight: 700;
+  color: #090909;
 }
 .welcome-section-textBx button {
   padding: 7px 25px;
   margin-top: 15px;
   border-radius: 3px;
   border: none;
-  color: rgba(133, 91, 2, 0.68);
+  color: #090909;
   font-weight: 700;
   cursor: pointer;
   transition: 0.2s ease;
@@ -291,7 +292,7 @@ body {
 .new h1 {
   font-weight: bold;
   text-align: center;
-  color: rgba(133, 91, 2, 0.68);
+  color: #090909;
   align-items: center;
   font-size: 21px;
   font-weight: 800;
@@ -403,15 +404,15 @@ body {
 }
 
 .media-left-slide-item {
-  width: auto;
-  min-height: 330px;
+  width: 510px;
+  min-height: 300px;
   display: flex;
   animation: slideAnime 130s linear infinite;
 }
 
 .media-left-slide-item img {
-  width: 500px !important;
-  height: 330px !important;
+  width: 510px !important;
+  height: 290px !important;
 }
 .media-title {
   margin-bottom: 5px;
