@@ -316,11 +316,13 @@ body {
   overflow: hidden;
   margin: 0px 30px 20px 0px;
   background-color: rgba(168, 117, 6, 0.68);
+  color: #ffffff
 
 }
 .news-container-item.is-up {
   position: relative;
   top: -50px;
+  color: #fff;
 }
 .news-container-item .imgBx {
   height: 250px;
@@ -339,7 +341,7 @@ body {
   padding: 20px 0px;
   font-size: 14px;
   text-align: center;
-  color: rgba(133, 92, 2, 0.829);
+  color: #f5f5f5;
   font-weight: 700;
 }
 
@@ -373,7 +375,7 @@ body {
 }
 
 .media-section-title h4 {
-  color: #0a5eb0;
+  color: #f5f5f5;
   margin-bottom: 10px;
   letter-spacing: 5px;
   font-size: 21px;
@@ -424,7 +426,7 @@ body {
   font-size: 21px;
   letter-spacing: 5px;
   margin-bottom: 5px;
-  color: #0a5eb0;
+  color: #f5f5f5;
 }
 .media-video {
   width: 510px;
