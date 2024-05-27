@@ -50,3 +50,13 @@ h2,
 li {
   margin: 10px 0px;
 }
+@media only screen and (max-width: 500px) {
+  .page-home {
+    padding: 0px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .page-home-item{
+    margin-top: 100px;
+  }
+}

@@ -940,7 +940,7 @@ swiper-slide img {
     position: absolute;
     left: -150%;
     z-index: 11;
-    background-color: #ffffffb6;
+    background-color: #ffffffe0;
     backdrop-filter: blur(5px);
     width: 440px;
     min-height: 100vh;
@@ -987,6 +987,7 @@ swiper-slide img {
 
   .menu div {
     max-width: 380px;
+    font-size: 13px;
     display: flex;
     align-items: center;
   }
@@ -994,6 +995,7 @@ swiper-slide img {
   .menu div img {
     width: 60px;
     height: 60px;
+    margin: 0px 10px;
   }
 
   .welcome-section-item {
