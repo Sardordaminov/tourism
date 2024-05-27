@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Pacifico&display=swap');
+
 .food-section-item {
   width: 100%;
   display: flex;
@@ -6,7 +8,8 @@
 }
 
 .food-section-item h4 {
-  font-size: 21px;
+  font-size: 30px;
+  font-family: 'Pacifico';
 }
 
 .food-cards {
@@ -146,7 +149,8 @@
       left: 200%;
     }
   }
-.food-tokenImage {
+
+  .food-tokenImage {
     max-width: 100%;
     height: 250px;
     border-radius: .5rem;
