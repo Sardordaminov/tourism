@@ -1,0 +1,74 @@
+.map_block {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #078adb;
+    box-sizing: border-box;
+    background: url(../map/map_bg.png) -253px -95px no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.title-page .block-16 {
+    margin: 0;
+    border: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    min-height: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url(../images/ornamentt_.png) left 50% top 50% / auto auto repeat;
+    max-width: 100%;
+    z-index: 5;
+    text-align: center;
+    display: block;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    right: 0;
+    padding-top: 0.02px;
+    padding-bottom: 0.02px;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+}
+.title-page .editorElement {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.title-page .wrapper {
+    border: none;
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 0.02px;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+}
+.title-page body {
+    margin: 0;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html.title-page {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}

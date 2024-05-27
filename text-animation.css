@@ -1,0 +1,19 @@
+.text-wrapper {
+    letter-spacing: 3px;
+  }
+  
+  .caret {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0.35rem;
+    margin-left: 0.05rem;
+    border-right: 2px solid;
+    animation: caret-flash 0.8s steps(12) infinite;
+  }
+  
+  @keyframes caret-flash {
+    50% {
+      opacity: 0;
+    }
+  }
