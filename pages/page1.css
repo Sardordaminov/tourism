@@ -4,12 +4,12 @@
 .page-home-item {
   width: 100%;
   min-height: 50vh;
-  padding: 20px;
+  padding: 30px;
   position: relative;
   display: flex;
   flex-direction: column;
   color: rgb(133, 92, 2);
-  border-radius: 5px;
+  border-radius: 0.5em;
   background-color: #ffffff5b;
   backdrop-filter: blur(6px);
 }
@@ -24,12 +24,12 @@
   justify-content: center;
 } */
 .to-home {
-    position: absolute;
+  position: absolute;
   color: rgb(133, 92, 2);
   padding: 0.2em 1.2em;
   font-size: 18px;
   border-radius: 0.5em;
-  background: #e8e8e8;
+  background: #ffffff23;
   cursor: pointer;
   border: 1px solid #e8e8e8;
   transition: all 0.3s;

@@ -185,7 +185,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-  color: white;
+  color: rgb(133, 92, 2);
 }
 
 .home,
