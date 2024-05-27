@@ -95,7 +95,7 @@ body {
   border-radius: 50%;
   color: #fff;
   background-color: #8b8b8b;
-  z-index: 10;
+  z-index: 1000;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
   transition: 0.2s ease;
