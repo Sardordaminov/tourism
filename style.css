@@ -132,10 +132,12 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  background: linear-gradient(0deg,
-      rgba(238, 152, 40, 0) 0%,
-      rgba(121, 76, 9, 0.03) 0%,
-      rgba(123, 84, 0, 0.68) 98%);
+  background: linear-gradient(
+    0deg,
+    rgba(238, 152, 40, 0) 0%,
+    rgba(121, 76, 9, 0.03) 0%,
+    rgba(123, 84, 0, 0.68) 98%
+  );
   backdrop-filter: blur(1px);
 }
 
@@ -168,7 +170,7 @@ body {
 .navbar {
   display: flex;
   align-items: center;
-  z-index: 9;
+  z-index: 11;
   /* z-index: 1000; */
 }
 
@@ -186,13 +188,14 @@ body {
   color: white;
 }
 
-.home {
+.home,
+.page-home {
   position: relative;
   height: 100vh;
   display: flex;
   align-items: center;
   padding: 0 10%;
-  filter: brightness(70%);
+  filter: brightness(80%);
   background: linear-gradient(to top, #ffffff54, #ffffff2a),
     url(./assets/background/Kokand_Khudayar_Khan_palace_restored-1024x682.jpg);
   background-position: center;
@@ -202,11 +205,7 @@ body {
   background-color: #00000025;
   top: 0;
   left: 0;
-  z-index: 10;
-}
-
-.home-content {
-  max-width: 600px;
+  z-index: 9;
 }
 
 .home-content h3 {
@@ -634,8 +633,7 @@ body {
 }
 
 .statistics-title h4 {
-  font-family: 'Pacifico';
-
+  font-family: "Pacifico";
 }
 
 .statistics-title img {
@@ -651,7 +649,6 @@ body {
   text-align: center;
   padding: 28px 0px 0px;
   /* font-family: 'Pacifico'; */
-
 }
 
 .statistics-item img {
@@ -664,7 +661,6 @@ body {
   width: 200px;
   margin: 10px 20px;
   color: rgba(121, 76, 9, 0.65);
-
 }
 
 .statistics-item-box h5 {
@@ -672,7 +668,6 @@ body {
   font-size: 28px;
   font-weight: 500;
   letter-spacing: 1px;
-
 }
 
 .statistics-item-box span {
@@ -683,10 +678,12 @@ body {
   width: 100%;
   padding: 50px 0px;
 
-  background: linear-gradient(0deg,
-      rgba(238, 152, 40, 0) 0%,
-      rgba(121, 76, 9, 0.03) 0%,
-      rgba(123, 84, 0, 0.68) 98%);
+  background: linear-gradient(
+    0deg,
+    rgba(238, 152, 40, 0) 0%,
+    rgba(121, 76, 9, 0.03) 0%,
+    rgba(123, 84, 0, 0.68) 98%
+  );
 }
 
 .why-we-item {
@@ -704,8 +701,7 @@ body {
   font-size: 21px;
   font-weight: 400;
   letter-spacing: 1px;
-  font-family: 'Pacifico';
-
+  font-family: "Pacifico";
 }
 
 .why-we-items {
@@ -731,8 +727,7 @@ body {
 .why-we-items-item h3 {
   font-size: 15px;
   margin: 30px 0px;
-  font-family: 'Pacifico';
-
+  font-family: "Pacifico";
 }
 
 .why-we-items-item p {
@@ -765,10 +760,12 @@ body {
 }
 
 .footer {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(238, 152, 40, 0) 0%,
       rgba(121, 76, 9, 0.03) 0%,
-      rgba(123, 84, 0, 0.68) 98%),
+      rgba(123, 84, 0, 0.68) 98%
+    ),
     url(./assets/background/footer-back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -978,7 +975,6 @@ swiper-slide img {
     justify-content: space-between;
     padding: 10px 20px 10px 30px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-
   }
 
   .menu button {
