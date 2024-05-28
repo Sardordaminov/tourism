@@ -1,0 +1,53 @@
+.place1-home {
+    filter: none !important;
+  }
+  .place1-home-item {
+    width: 100%;
+    min-height: 70vh;
+    padding: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: rgb(21, 121, 155);
+    border-radius: 0.5em;
+    background-color: #ffffff5b;
+    backdrop-filter: blur(6px);
+  }
+  .to-home {
+    position: absolute;
+    color: rgb(21, 121, 155);
+    padding: 0.2em 1.2em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #ffffff23;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+  
+  .to-home:active {
+    color: rgb(21, 121, 155);
+    box-shadow: inset 4px 4px 12px rgb(21, 121, 155), inset -4px -4px 12px rgb(21, 121, 155);
+  }
+  
+  .place1-home-item h1 {
+    text-align: center;
+    margin: 25px 0px;
+  }
+  .place1-home-item p,
+  h2,
+  li {
+    margin: 10px 0px;
+  }
+  @media only screen and (max-width: 500px) {
+    .place1-home {
+      padding: 0px !important;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .place1-home-item{
+      margin-top: 100px;
+    }
+  }
+  

@@ -1,27 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Pacifico&display=swap');
 
-.food-section-item {
+.places-section-item {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.food-section-item h4 {
+.places-section-item-title h4 {
   font-size: 30px;
   font-family: 'Pacifico';
   color: rgb(21, 121, 155);
   font-weight: 400;
+  line-height: 5px;
 }
 
-.food-cards {
+.places-cards {
   padding: 50px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.food-nft {
+.places-nft {
   max-width: 300px;
   margin: 20px 30px;
   border: 1px solid   rgb(21, 121, 155);
@@ -48,30 +49,30 @@
     text-decoration: none;
   }
 
-  .food-main {
+  .places-main {
     display: flex;
     flex-direction: column;
     width: 90%;
     padding: 1rem;
 
-    .food-tokenImage {
+    .places-tokenImage {
       border-radius: 0.5rem;
       max-width: 100%;
       height: 250px;
       object-fit: cover;
     }
 
-    .food-description {
+    .places-description {
       margin: 0.5rem 0;
       color: #ffffff;
     }
 
-    .food-tokenInfo {
+    .places-tokenInfo {
       display: flex;
       justify-content: space-between;
       align-items: center;
 
-      .food-price {
+      .places-price {
         display: flex;
         align-items: center;
         color: #ee83e5;
@@ -83,7 +84,7 @@
         }
       }
 
-      .food-duration {
+      .places-duration {
         display: flex;
         align-items: center;
         color: #a89ec9;
@@ -96,7 +97,7 @@
       }
     }
 
-    .food-creator {
+    .places-creator {
       display: flex;
       align-items: center;
       margin-top: 0.2rem;
@@ -107,7 +108,7 @@
         text-decoration: none;
       }
 
-      .food-wrapper {
+      .places-wrapper {
         display: flex;
         align-items: center;
         border: 1px solid #ffffff22;
@@ -144,7 +145,7 @@
     border: 1px solid #ffffff44;
     box-shadow: 0 7px 50px 10px #000000aa;
     transform: scale(1.015);
-    filter: brightness(1.3);
+    filter: brightness(1.0);
 
     ::before {
       filter: brightness(0.5);
@@ -153,22 +154,26 @@
     }
   }
 
-  .food-tokenImage {
+  .places-tokenImage {
     max-width: 100%;
     height: 250px;
     border-radius: .5rem;
     object-fit: cover;
   }
 
-  .food-main h2 {
+  .places-main h2 {
+    font-size: 21px;
+    padding: 15px;
     color: #fff;
+    text-align: center;
+    align-items: center;
   }
 }
 
-.food-tokenImage {
+.places-tokenImage {
   width: 300px;
 }
 
-.food-main h2 {
+.places-main h2 {
   color: #fff;
 }
