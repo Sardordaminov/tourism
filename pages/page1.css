@@ -8,24 +8,14 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  color: rgb(133, 92, 2);
+  color: rgb(21, 121, 155);
   border-radius: 0.5em;
   background-color: #ffffff5b;
   backdrop-filter: blur(6px);
 }
-/* .to-home {
-  width: 35px;
-  height: 35px;
-  position: absolute;
-  left: 20px;
-  top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 .to-home {
   position: absolute;
-  color: rgb(133, 92, 2);
+  color: rgb(21, 121, 155);
   padding: 0.2em 1.2em;
   font-size: 18px;
   border-radius: 0.5em;
