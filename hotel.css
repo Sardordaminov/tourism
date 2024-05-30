@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Pacifico&display=swap");
+
+.hotels-section-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hotels-section-item-title h4 {
+  font-size: 30px;
+  font-family: "Pacifico";
+  color: rgb(21, 121, 155);
+  font-weight: 400;
+  line-height: 5px;
+  font-family: 'pacifico';
+}
+
+.hotels-cards {
+  padding: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hotels-nft {
+  max-width: 300px;
+  margin: 20px 30px;
+  border: 1px solid rgb(21, 121, 155);
+  background-color: rgb(21, 121, 155);
+  background: linear-gradient(
+    0deg,
+    rgb(21, 121, 155) 0%,
+    rgba(17, 0, 32, 0.5) 100%
+  );
+  box-shadow: 0 7px 20px 5px rgb(21, 121, 155);
+  border-radius: 0.7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: 0.5s all;
+
+  hr {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #88888855;
+    margin-top: 0;
+  }
+
+  ins {
+    text-decoration: none;
+  }
+
+  .hotels-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+
+    .hotels-tokenImage {
+      border-radius: 0.5rem;
+      max-width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .hotels-description {
+      margin: 0.5rem 0;
+      color: #ffffff;
+    }
+
+    .hotels-tokenInfo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .hotels-price {
+        display: flex;
+        align-items: center;
+        color: #ee83e5;
+        font-weight: 700;
+
+        ins {
+          margin-left: -0.3rem;
+          margin-right: 0.5rem;
+        }
+      }
+
+      .hotels-duration {
+        display: flex;
+        align-items: center;
+        color: #a89ec9;
+        margin-right: 0.2rem;
+
+        ins {
+          margin: 0.5rem;
+          margin-bottom: 0.4rem;
+        }
+      }
+    }
+
+    .hotels-creator {
+      display: flex;
+      align-items: center;
+      margin: 0px 0px 10px 0px;
+
+      ins {
+        color: #f8f8f8;
+      }
+
+      .hotels-wrapper {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ffffff22;
+        padding: 0.3rem;
+        margin: 0;
+        margin-right: 0.5rem;
+        border-radius: 100%;
+        box-shadow: inset 0 0 0 4px #000000aa;
+
+        img {
+          border-radius: 100%;
+          border: 1px solid #ffffff22;
+          width: 2rem;
+          height: 2rem;
+          object-fit: cover;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  ::before {
+    position: fixed;
+    content: "";
+    box-shadow: 0 0 100px 40px #ffffff08;
+    top: -10%;
+    left: -100%;
+    transform: rotate(-45deg);
+    height: 60rem;
+    transition: 0.7s all;
+  }
+
+  &:hover {
+    border: 1px solid #ffffff44;
+    box-shadow: 0 7px 50px 10px #000000aa;
+    transform: scale(1.015);
+    filter: brightness(1);
+
+    ::before {
+      filter: brightness(0.5);
+      top: -100%;
+      left: 200%;
+    }
+  }
+
+  .hotels-tokenImage {
+    max-width: 100%;
+    height: 250px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+  }
+
+  .hotels-main h2 {
+    font-size: 21px;
+    padding: 15px 15px 15px 5px;
+    color: #fff;
+    text-align: start;
+    align-items: center;
+  }
+}
+
+.hotels-tokenImage {
+  width: 300px;
+}
+
+.hotels-main h2 {
+  color: #fff;
+}

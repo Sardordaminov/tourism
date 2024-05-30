@@ -58,6 +58,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+$(document).ready(function() {
+  $('.hl-btn').click(function() {
+    var url = $(this).data('url');
+    window.location.href = url;
+  });
+});
 
 
 
