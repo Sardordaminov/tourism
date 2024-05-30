@@ -190,7 +190,8 @@ body {
 
 .home,
 .page-home,
-.place-home {
+.place-home,
+.hl-home {
   position: relative;
   height: 100vh;
   display: flex;
@@ -688,6 +689,188 @@ body {
 .statistics-item-box span {
   font-size: 40px;
 }
+
+
+.hotels {
+  width: 100vw;
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 0;
+  color: rgb(21, 121, 155);
+}
+
+.hotel {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hotel img {
+  width: 150px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.hotel h4 {
+  text-align: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-family: "Pacifico";
+}
+
+.hotels-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hotels-container-items {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 60px 0px 0px;
+  z-index: -1;
+}
+
+.hotels-container-item {
+  max-width: 360px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 25px 0 rgb(21, 121, 155);
+  border-radius: 7px;
+  overflow: hidden;
+  margin: 0px 30px 20px 0px;
+  background-color: rgb(21, 121, 155);
+  color: #ffffff;
+}
+.hotels-container-item h4{
+  font-family: "Pacifico";
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+}
+
+.hotels-container-item.is-up {
+  position: relative;
+  top: -50px;
+  color: #fff;
+}
+
+.hotels-container-item .HotelimgBx {
+  height: 250px;
+  overflow: hidden;
+}
+
+.hotels-container-item .HotelimgBx img {
+  width: 100%;
+  height: 100%;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.hotels-item .HotelimgBx:hover img {
+  transform: scale(1.1);
+}
+
+.hotels-container-item p {
+  padding: 10px 0px;
+  font-size: 12px;
+  text-align: center;
+  color: #f5f5f5;
+  font-weight: 700;
+}
+
+.hl-btn {
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  /* align-items: center; */
+  z-index: 1;
+  color: #090909;
+  padding: 0.9em 1.7em;
+  cursor: pointer;
+  font-size: 10px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  box-shadow: 6px 6px 12px rgb(60, 190, 233), -6px -6px 12px rgb(73, 184, 221);
+}
+
+.hl-btn:active {
+  color: #666;
+  box-shadow: inset 2px 2px 10px rgb(47, 160, 197),
+    inset -2px -2px 10px rgb(39, 172, 216);
+}
+
+.hl-btn:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.hl-btn:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: rgb(21, 121, 155);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.hl-btn:hover {
+  color: #ffffff;
+  border: 1px solid rgb(21, 121, 155);
+}
+
+.hl-btn:hover:before {
+  top: -35%;
+  background-color: rgb(21, 121, 155);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.hl-btn:hover:after {
+  top: -45%;
+  background-color: rgb(21, 121, 155);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .why-we {
   width: 100%;
